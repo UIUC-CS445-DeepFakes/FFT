@@ -38,3 +38,13 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score
 from glob import glob</code>
 
+## Model Design
+
+- Preprocessing
+  - Images are resized to 224 x 224, converted to grayscale, and normalized
+- FFT Transformation
+  - Each image is converted into frequency space using 2D FFT
+- Feature Extraction
+  - We extract statistical features from the frequency domain such as mean frequency magnitude, standard deviation, low-frequency energy, and high-frequency energy.
+- Model Training
+  - We use a logistic regression classifier to train the model.
