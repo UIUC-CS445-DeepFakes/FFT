@@ -19,7 +19,7 @@ The pipeline follows these steps:
 
 ## Datasets
 
-We used two datasets found online: [Faceforensics++](https://gts.ai/dataset-download/faceforensics-dataset/) and [UADFV_dataset](https://www.kaggle.com/datasets/adityakeshri9234/uadfv-dataset). We saved these datasets to Google Drive and used Google Colab to go through the deepfake detection pipeline.
+We used three datasets found online: [CelebDF](https://www.kaggle.com/datasets/pranabr0y/celebdf-v2image-dataset), [Human Faces](https://www.kaggle.com/datasets/kaustubhdhote/human-faces-dataset ) and [UADFV_dataset](https://www.kaggle.com/datasets/adityakeshri9234/uadfv-dataset). We saved these datasets to Google Drive and used Google Colab to go through the deepfake detection pipeline.
 
 ## Development
 Clone the repository in Google Colab:
